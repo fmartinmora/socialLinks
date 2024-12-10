@@ -80,27 +80,33 @@ body{
     margin: 24px 40px 40px 40px;
 }
 
-button{
+.links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.links li {
+    margin-bottom: 12px;
+}
+
+.links a {
+    display: block;
     width: 304px;
     height: 45px;
-    margin-bottom: 12px;
-    color: var(--white);
     background-color: var(--grey700);
-    border: none;
+    color: var(--white);
+    text-decoration: none;
     border-radius: 8px;
     font-weight: bold;
-    line-height: 150%;
-    letter-spacing: 0px;
+    line-height: 45px; /* Para centrar verticalmente el texto */
+    text-align: center;
     cursor: pointer;
 }
 
-button:hover{
+.links a:hover {
     background-color: var(--green);
     color: var(--grey700);
-    font-weight: bold;
-    line-height: 150%;
-    letter-spacing: 0px;
-    cursor: pointer;
 }
 
 .attribution { 
@@ -109,8 +115,6 @@ button:hover{
     margin-top: 20px;
     color:white;
 }
-
-
 
 .attribution a { color: hsl(228, 45%, 44%); }
 
