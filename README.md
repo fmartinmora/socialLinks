@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://social-links-fmartinmorateam.vercel.app/)
+- Live Site URL: [Visi the project](https://social-links-fmartinmorateam.vercel.app/)
 
 ## My process
 
